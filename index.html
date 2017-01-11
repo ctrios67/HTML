@@ -4,16 +4,38 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
- .chris{
-  background-color: rgb(38, 38, 38);
-  color: white;
- }
- #horizontal ul{
-   list-style: none;
+  .chris{
+    background-color: rgb(38, 38, 38);
+    color: white;
   }
- #horizontal li{
-  display: inline;
- }
+  #horizontal ul{
+    list-style: none;
+  }
+  #horizontal li{
+    display: inline;
+  }
+  <!--Taken from a w3schools.com exercise that looked sexy-->
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111111;
+  }
+  <!--End of sexy w3schools.com exercise css-->
 </style>
  
 <body class="chris">
@@ -22,11 +44,9 @@
       <section>
         <article>I'm a Software Engineer located in the New York City area. I graduated from the <a href="//www.njit.edu">New Jersey Institute of Technology</a> with a B.S. in Computer Engineering and a technical specificiation in Telecommunications. Most of my professional experience consists of: 
           <ul>
-            <li>Developing data migration interfaces utilizing ETL tools, performing data analysis of source and target systems, and performing
-       regression testing of outdated or broken ETL jobs.</li>
-            <li>Developing business dashboards, drawing analytical data insight coming from various data sources, and 
-              combining these techniques in tools such as Cognos and Tableau.</li>
-            <li>General SQL knowledge, querying databases to maintain data integrity, duplicating tables for 
+            <li>Extract, Transform, and Load: Developing data migration interfaces utilizing ETL tools, performing data analysis of source and target systems, and performing regression testing of outdated or broken ETL jobs.</li>
+            <li>Business Intelligence: Developing business dashboards, drawing analytical data insight coming from various data sources, and combining these techniques in tools such as Cognos and Tableau.</li>
+            <li>SQL: Querying databases to maintain data integrity, duplicating tables for 
      testing purposes, and joining tables as per specific business requirements mainly in Oracle SQL Developer and SQL Server 2012.</li>
           </ul>
          </article>
